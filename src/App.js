@@ -6,6 +6,7 @@ import overcast from './pics/overcast.jpg'
 import rainy from './pics/rainy.jpg'
 import snow from './pics/snow.jpg'
 
+
 function App() {
 const [place, setPlace] = useState("new york")
 const [placeInfo, setPLaceInfo] = useState([])
