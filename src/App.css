@@ -1,0 +1,74 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  font-family: "Merriweather Sans", sans-serif;
+  color: white;
+  transition-duration: 1s;
+  overflow: hidden;
+}
+
+.search-input
+{
+  display: flex;
+  flex-direction: row;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(1px);
+}
+
+.search-input > input {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+  font-size: 35px;
+  padding: 25px;
+  border: none;
+  outline: none;
+  color: white;
+  background: transparent;
+}
+
+.search-input > input::placeholder {
+  color: white;
+}
+
+.weather-container > h2 {
+  font-size: 64px;
+}
+
+.top-part {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  left: 73px;
+  top: 673px;
+}
+
+.top-part > h1 {
+  font-size: 180px;
+}
+
+.button{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row;
+  border-radius: 15px;
+  overflow: hidden;
+  font-size: 25px;
+  border: none;
+  outline: none;
+  color: black;
+  background: transparent;
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.button:hover {
+    transform: scale(1.4);
+  }
